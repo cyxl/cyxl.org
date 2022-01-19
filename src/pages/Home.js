@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/Home.css"
 import Demo from "../components/ConsoleTextDemo";
+import RedNavbar from "../components/RedNavbar";
 
 function Home() {
   return (
@@ -12,19 +13,7 @@ function Home() {
           <div classs="console-underscore" id="console"></div>
         </div>
       </div>
-      <nav>
-        <a href="/about">
-          <span className="hover-underline">About</span>
-        </a>{" "}
-        /{" "}
-        <a href="/projects">
-          <span className="hover-underline">Projects</span>
-        </a>{" "}
-        /{" "}
-        <a href="/contact">
-          <span className="hover-underline">Contact</span>
-        </a>
-      </nav>
+      <RedNavbar />
     </div>
   );
 }

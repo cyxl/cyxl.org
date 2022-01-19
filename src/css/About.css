@@ -1,13 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Khula);
 
-.left-panel {
+.left-panel-about {
   position: absolute;
   height: 100vh;
   width: 50%;
   background-color: #f7484e;
 }
 
-.right-panel {
+.right-panel-about {
   position: absolute;
   right: 0;
   height: 100vh;
@@ -31,9 +31,9 @@
 }
 
 .developing-header {
-    font-family: Khula;
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-top: 6%;
-    margin-left: 15%;
+  font-family: Khula;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 6%;
+  margin-left: 15%;
 }

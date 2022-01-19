@@ -7,3 +7,74 @@ html {
 * {
   box-sizing: border-box;
 }
+
+/* red */
+.hover-underline-red {
+  display: inline-block;
+  position: relative;
+  color: #ea484e;
+}
+
+.hover-underline-red:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ea484e;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-red:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav-red {
+  font-family: Khula;
+  position: absolute;
+  font-size: 1.1em;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: #ea484e;
+}
+
+/* black */
+.hover-underline-black {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.hover-underline-black:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-black:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav-black {
+  font-family: Khula;
+  position: absolute;
+  font-size: 1.1em;
+  font-weight: bold;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: black;
+}

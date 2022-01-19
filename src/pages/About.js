@@ -1,14 +1,15 @@
 import React from "react";
 import "../css/About.css";
+import BlackNavbar from "../components/BlackNavbar";
 
 function About() {
   return (
     <div className="About">
-      <div className="left-panel">
+      <div className="left-panel-about">
         <p></p>
+        <BlackNavbar />
       </div>
-
-      <div className="right-panel">
+      <div className="right-panel-about">
         <div className="content">
           <p className="text-header">
             I am a Self Taught Developer from the United States

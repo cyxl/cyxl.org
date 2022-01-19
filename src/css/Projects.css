@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Khula);
+
+.left-panel-projects {
+  position: absolute;
+  height: 100vh;
+  width: 50%;
+  background-color: white;
+}
+
+.right-panel-projects {
+  position: absolute;
+  right: 0;
+  height: 100vh;
+  width: 50%;
+  background-color: #292929;
+}
