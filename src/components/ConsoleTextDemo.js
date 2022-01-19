@@ -10,7 +10,7 @@ class Demo extends React.Component {
 
   componentDidMount() {
       this.setState({
-          console: new consoleText(['Hi, I am cyxl.', 'I am a developer.', 'test'], 'text', ['white', 'rebeccapurple', 'lightblue'])
+          console: new consoleText(['Hi, I am cyxl.', 'I am a developer.', 'I am a gamer.'], 'text', ['white', 'rebeccapurple', 'lightblue'])
       })
   }
 
