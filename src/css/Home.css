@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+header {
+  font-family: Khula;
+  margin-top: 2%;
+  font-size: 1.1em;
+  text-align: center;
+  color: #ea484e;
+}
+
+.hover-underline {
+  display: inline-block;
+  position: relative;
+  color: #ea484e;
+}
+
+.hover-underline:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ea484e;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+nav {
+  font-family: Khula;
+  position: absolute;
+  font-size: 1.1em;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: #ea484e;
+}
+
+body {
+  background: #292929
+}
