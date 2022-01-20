@@ -36,7 +36,7 @@ html {
 .nav-red {
   font-family: Khula;
   position: absolute;
-  font-size: 1.1em;
+  font-size: 1.2em;
   bottom: 2%;
   left: 50%;
   transform: translate(-50%, 0);
@@ -71,7 +71,7 @@ html {
 .nav-black {
   font-family: Khula;
   position: absolute;
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: bold;
   bottom: 2%;
   left: 50%;
