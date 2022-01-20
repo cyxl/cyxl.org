@@ -78,3 +78,26 @@ html {
   transform: translate(-50%, 0);
   color: black;
 }
+
+.text-header {
+  font-family: Khula;
+  margin-top: 13%;
+  margin-left: 15%;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.text-description {
+  font-family: Khula;
+  margin-top: 6%;
+  margin-left: 15%;
+  font-size: 1em;
+}
+
+.big-header {
+  font-family: Khula;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 6%;
+  margin-left: 15%;
+}

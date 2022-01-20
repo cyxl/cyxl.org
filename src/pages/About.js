@@ -19,7 +19,7 @@ function About() {
             <br /> When I first started coding it was rough lots of new stuff.
             <br />I just keep on learning more and having fun!
           </p>
-          <h3 className="developing-header">Developing</h3>
+          <h3 className="big-header">Developing</h3>
           <p className="text-description"></p>
         </div>
       </div>

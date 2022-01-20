@@ -4,7 +4,7 @@
   position: absolute;
   height: 100vh;
   width: 50%;
-  background-color: #962B2B;
+  background-color: #f7484e;
 }
 
 .right-panel-about {
@@ -13,27 +13,4 @@
   height: 100vh;
   width: 50%;
   background-color: white;
-}
-
-.text-header {
-  font-family: Khula;
-  margin-top: 14.5%;
-  margin-left: 15%;
-  font-size: 1em;
-  font-weight: bolder;
-}
-
-.text-description {
-  font-family: Khula;
-  margin-top: 6%;
-  margin-left: 15%;
-  font-size: 1em;
-}
-
-.developing-header {
-  font-family: Khula;
-  font-weight: bold;
-  font-size: 1.5em;
-  margin-top: 6%;
-  margin-left: 15%;
 }
