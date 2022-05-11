@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/About.css";
 import BlackNavbar from "../components/BlackNavbar";
+import SkillBar from "../components/SkillBar";
 
 function About() {
   return (
@@ -19,8 +20,10 @@ function About() {
             <br /> When I first started coding it was rough lots of new stuff.
             <br />I just keep on learning more and having fun!
           </p>
-          <h3 className="big-header">Developing</h3>
-          <p className="text-description"></p>
+          <h3 className="big-header">Skills</h3>
+          <p className="text-description">
+            <SkillBar />
+          </p>
         </div>
       </div>
     </div>
