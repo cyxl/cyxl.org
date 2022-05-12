@@ -11,7 +11,8 @@ function About() {
       </div>
 
       <div className="right-panel-projects">
-        <p></p>
+        <div className="content">
+        </div>
       </div>
     </div>
   );

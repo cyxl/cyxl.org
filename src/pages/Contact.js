@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/Contact.css";
 import DiscordSVG from "../pictures/Discord-Logo-Black.svg";
+import GithubSVG from "../pictures/Github-Logo.svg";
 import RedNavbar from "../components/RedNavbar";
 
 function Contact() {
@@ -29,6 +30,13 @@ function Contact() {
           href="https://discordapp.com/users/713936815022932079"
         >
           <img src={DiscordSVG} alt="Discord" height="42" width="42" />
+        </a>
+        <a
+          className="github-img"
+          href="https://github.com/cyxl"
+        >
+          <img src={GithubSVG} alt="Github" height="42" width="42" />
+
         </a>
       </div>
     </div>
